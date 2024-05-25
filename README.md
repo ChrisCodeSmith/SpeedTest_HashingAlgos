@@ -1,6 +1,6 @@
 # Fast simple explanation of the GUI:
 ## Why
-- To compare the speed and showcase the simplicity and correctness of hashing algorithms
+- To compare the speed, and showcase the simplicity and correctness of hashing algorithms against a simple bytewise file compare
 
 ## Buttons:
 ### Create Files:
