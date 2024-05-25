@@ -1,4 +1,7 @@
 # Fast simple explanation of the GUI:
+## Why
+- To compare the speed and showcase the simplicity and correctness of hashing algorithms
+
 ## Buttons:
 ### Create Files:
 - It deletes all files in the temp folder everytime the button is pressed first and before creating new ones
