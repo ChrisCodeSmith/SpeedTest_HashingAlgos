@@ -134,7 +134,6 @@ namespace SpeedTest
             return HashCalc(md5Hash, origFile, copyFile);
         }
         private static bool SHA256Calc(string origFile, string copyFile) {
-            Debug.WriteLine("SHA: -----------------");
             SHA256 sHA256 = SHA256.Create();
             return HashCalc(sHA256, origFile, copyFile);
         }

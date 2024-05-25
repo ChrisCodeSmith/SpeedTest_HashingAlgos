@@ -18,15 +18,15 @@
         <Label Content="MD5:" HorizontalAlignment="Left" Height="28" Margin="44,189,0,0" VerticalAlignment="Top" Width="86"/>
         <Label Content="SHA256:" HorizontalAlignment="Left" Height="28" Margin="44,213,0,0" VerticalAlignment="Top" Width="86"/>
         <Label Content="Time:" HorizontalAlignment="Left" Height="24" Margin="191,143,0,0" VerticalAlignment="Top" Width="52" RenderTransformOrigin="0.386,3.775"/>
-        <TextBox x:Name="TimeMarkus" HorizontalAlignment="Left" Margin="191,172,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="TimeMD5" HorizontalAlignment="Left" Margin="191,194,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="TimeSHA256" HorizontalAlignment="Left" Margin="191,218,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TimeMarkus" HorizontalAlignment="Left" Margin="191,172,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Width="120" IsReadOnly="True"/>
+        <TextBox x:Name="TimeMD5" HorizontalAlignment="Left" Margin="191,194,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Width="120" IsReadOnly="True"/>
+        <TextBox x:Name="TimeSHA256" HorizontalAlignment="Left" Margin="191,218,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Width="120" IsReadOnly="True" />
         <Button x:Name="Run" Content="Run" HorizontalAlignment="Left" Margin="44,247,0,0" VerticalAlignment="Top" Click="RunButton" Width="86"/>
         <Label x:Name="StatusBar" HorizontalAlignment="Left" Height="40" Margin="44,103,0,0" VerticalAlignment="Top" Width="356" FontSize="10"/>
         <Label Content="Collisions:" HorizontalAlignment="Left" Margin="329,141,0,0" VerticalAlignment="Top" Width="91"/>
-        <TextBox x:Name="CollisionsMarkus" HorizontalAlignment="Left" Margin="329,172,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Width="71"/>
-        <TextBox x:Name="CollisionsMD5" HorizontalAlignment="Left" Margin="329,194,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Width="71"/>
-        <TextBox x:Name="CollisionsSHA" HorizontalAlignment="Left" Margin="329,218,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Width="71"/>
+        <TextBox x:Name="CollisionsMarkus" HorizontalAlignment="Left" Margin="329,172,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Width="71" IsReadOnly="True"/>
+        <TextBox x:Name="CollisionsMD5" HorizontalAlignment="Left" Margin="329,194,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Width="71" IsReadOnly="True" />
+        <TextBox x:Name="CollisionsSHA" HorizontalAlignment="Left" Margin="329,218,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Width="71" IsReadOnly="True"/>
 
     </Grid>
 </Window>
