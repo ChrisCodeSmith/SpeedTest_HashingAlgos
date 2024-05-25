@@ -9,5 +9,5 @@
 ### Run:
 - It creates copies of the files we previously created with 'Create Files'
 - It hashes the original Files and the Copies and compares them
-- It shows the time used to calc and compare the hashes for the algorithms
+- It shows the time used to calc and compare the hashes, for each algo 
 - It shows the amount of collisions. It should have 1 collision for 1 file you create. 
