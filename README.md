@@ -1,10 +1,11 @@
 # Fast simple explanation of the GUI:
-## Create Files:
+## Buttons:
+### Create Files:
 - It creates the amount of files with the size you select in a temp folder
 - It fills the files with random byte data
 - It deletes all files in the temp folder everytime the button is pressed
 
-## Run
+### Run:
 - It creates copies of the files we previously created with 'Create Files'
 - It hashes the original Files and the Copies and compares them
 - It shows the time used to calc and compare the hashes for the algorithms
