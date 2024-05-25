@@ -11,9 +11,9 @@
         <Label Content="Speed Comparison Markus' Algo vs MD5 vs SHA256:" HorizontalAlignment="Left" Height="28" Margin="44,15,0,0" VerticalAlignment="Top" Width="294"/>
         <Label Content="Number of Files:" HorizontalAlignment="Left" Height="25" Margin="44,48,0,0" VerticalAlignment="Top" Width="95"/>
         <Label Content="Size of Files:" HorizontalAlignment="Left" Height="25" Margin="44,73,0,0" VerticalAlignment="Top" Width="89"/>
-        <TextBox x:Name="NumberOfFiles" HorizontalAlignment="Left" Height="19" Margin="144,54,0,0" TextWrapping="Wrap" Text="100" VerticalAlignment="Top" Width="47"/>
-        <TextBox x:Name="SizeOfFiles" HorizontalAlignment="Left" Height="19" Margin="144,76,0,0" TextWrapping="Wrap" Text="1000" VerticalAlignment="Top" Width="47"/>
-        <Button x:Name="CreateFiles" Content="Create Files" HorizontalAlignment="Left" Height="34" Margin="205,60,0,0" VerticalAlignment="Top" Width="92" Click="CreateFilesButton"/>
+        <TextBox x:Name="NumberOfFiles" HorizontalAlignment="Left" Height="19" Margin="144,54,0,0" TextWrapping="Wrap" Text="20" VerticalAlignment="Top" Width="91"/>
+        <TextBox x:Name="SizeOfFiles" HorizontalAlignment="Left" Height="19" Margin="144,76,0,0" TextWrapping="Wrap" Text="10000000" VerticalAlignment="Top" Width="118"/>
+        <Button x:Name="CreateFiles" Content="Create Files" HorizontalAlignment="Left" Height="34" Margin="318,61,0,0" VerticalAlignment="Top" Width="92" Click="CreateFilesButton"/>
         <Label Content="Markus' Algo:" HorizontalAlignment="Left" Height="28" Margin="44,167,0,0" VerticalAlignment="Top" Width="86"/>
         <Label Content="MD5:" HorizontalAlignment="Left" Height="28" Margin="44,189,0,0" VerticalAlignment="Top" Width="86"/>
         <Label Content="SHA256:" HorizontalAlignment="Left" Height="28" Margin="44,213,0,0" VerticalAlignment="Top" Width="86"/>
