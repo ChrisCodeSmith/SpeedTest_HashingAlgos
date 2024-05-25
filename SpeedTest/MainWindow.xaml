@@ -1,0 +1,32 @@
+﻿<Window x:Class="SpeedTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SpeedTest"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        Closing="MainWindow_Closing">
+    <Grid>
+        <Label Content="Speed Comparison Markus' Algo vs MD5 vs SHA256:" HorizontalAlignment="Left" Height="28" Margin="44,15,0,0" VerticalAlignment="Top" Width="294"/>
+        <Label Content="Number of Files:" HorizontalAlignment="Left" Height="25" Margin="44,48,0,0" VerticalAlignment="Top" Width="95"/>
+        <Label Content="Size of Files:" HorizontalAlignment="Left" Height="25" Margin="44,73,0,0" VerticalAlignment="Top" Width="89"/>
+        <TextBox x:Name="NumberOfFiles" HorizontalAlignment="Left" Height="19" Margin="144,54,0,0" TextWrapping="Wrap" Text="100" VerticalAlignment="Top" Width="47"/>
+        <TextBox x:Name="SizeOfFiles" HorizontalAlignment="Left" Height="19" Margin="144,76,0,0" TextWrapping="Wrap" Text="1000" VerticalAlignment="Top" Width="47"/>
+        <Button x:Name="CreateFiles" Content="Create Files" HorizontalAlignment="Left" Height="34" Margin="205,60,0,0" VerticalAlignment="Top" Width="92" Click="CreateFilesButton"/>
+        <Label Content="Markus' Algo:" HorizontalAlignment="Left" Height="28" Margin="44,167,0,0" VerticalAlignment="Top" Width="86"/>
+        <Label Content="MD5:" HorizontalAlignment="Left" Height="28" Margin="44,189,0,0" VerticalAlignment="Top" Width="86"/>
+        <Label Content="SHA256:" HorizontalAlignment="Left" Height="28" Margin="44,213,0,0" VerticalAlignment="Top" Width="86"/>
+        <Label Content="Time:" HorizontalAlignment="Left" Height="24" Margin="191,143,0,0" VerticalAlignment="Top" Width="52" RenderTransformOrigin="0.386,3.775"/>
+        <TextBox x:Name="TimeMarkus" HorizontalAlignment="Left" Margin="191,172,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TimeMD5" HorizontalAlignment="Left" Margin="191,194,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TimeSHA256" HorizontalAlignment="Left" Margin="191,218,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="Run" Content="Run" HorizontalAlignment="Left" Margin="44,247,0,0" VerticalAlignment="Top" Click="RunButton" Width="86"/>
+        <Label x:Name="StatusBar" HorizontalAlignment="Left" Height="40" Margin="44,103,0,0" VerticalAlignment="Top" Width="356" FontSize="10"/>
+        <Label Content="Collisions:" HorizontalAlignment="Left" Margin="329,141,0,0" VerticalAlignment="Top" Width="91"/>
+        <TextBox x:Name="CollisionsMarkus" HorizontalAlignment="Left" Margin="329,172,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Width="71"/>
+        <TextBox x:Name="CollisionsMD5" HorizontalAlignment="Left" Margin="329,194,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Width="71"/>
+        <TextBox x:Name="CollisionsSHA" HorizontalAlignment="Left" Margin="329,218,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Width="71"/>
+
+    </Grid>
+</Window>
