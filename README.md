@@ -1,9 +1,10 @@
 # Fast simple explanation of the GUI:
 ## Buttons:
 ### Create Files:
+- It deletes all files in the temp folder everytime the button is pressed first and before creating new ones
 - It creates the amount of files with the size you select in a temp folder
 - It fills the files with random byte data
-- It deletes all files in the temp folder everytime the button is pressed
+
 
 ### Run:
 - It creates copies of the files we previously created with 'Create Files'
